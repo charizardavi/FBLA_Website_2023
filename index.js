@@ -18,7 +18,7 @@ const frameCount = 80;
     
 // }
 const currentFrame = index => (
-    `https://raw.githubusercontent.com/charizardavi/FBLA_Website_2023/master/animation/${index.toString().padStart(4, '0')}.jpg`
+    `https://raw.githubusercontent.com/charizardavi/FBLA_Website_2023/master/animation/${index.toString().padStart(4, '0')}.webp`
   )
 
 footer.style.opacity="0";
