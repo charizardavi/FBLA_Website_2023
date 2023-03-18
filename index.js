@@ -12,14 +12,14 @@ const down_arrow = document.getElementById("down_arrow");
 const text_block_1 = document.getElementById("text_block_1");
 
 const frameCount = 80;
-// const currentFrame = function(index){
-//     console.log();
-//     return "animation/"+(''+index).padStart(4, "0")+".jpg";
+const currentFrame = function(index){
+    console.log();
+    return "animation/"+(''+index).padStart(4, "0")+".jpg";
     
-// }
-const currentFrame = index => (
-    `https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/01-hero-lightpass/${index.toString().padStart(4, '0')}.jpg`
-  )
+}
+// const currentFrame = index => (
+//     `https://www.apple.com/105/media/us/airpods-pro/2019/1299e2f5_9206_4470_b28e_08307a42f19b/anim/sequence/large/01-hero-lightpass/${index.toString().padStart(4, '0')}.jpg`
+//   )
 
 footer.style.opacity="0";
 
