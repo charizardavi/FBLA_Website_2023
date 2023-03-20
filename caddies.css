@@ -1,0 +1,66 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 500vh;
+    background: #000;
+    overflow-x: hidden;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 9999;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+    /* Add some space between links */
+}
+
+@media screen and (max-width: 768px) {
+    nav li {
+        margin: 0 10px;
+        /* Smaller margin for smaller screens */
+    }
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #42a5f5;
+}
+
+.nav-img {
+    width: 4%;
+    height: 4%;
+    display: block;
+    float: left;
+}
