@@ -9,22 +9,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="text-center">
-  <nav>
-    <img src="logo.png" alt="Your Image">
+  <nav id="navbar">
     <ul>
-      <li><a href="#">Home</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Caddies</a></li>
+      <li><a href="#">Golfers</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
+  <div class="nav" id="mobile_nav" style="z-index: 10;">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html">home</a>
+      <a href="caddies.html">caddies</a>
+    </div>
+  </div>
 
-  <div class="arrow_down">
+  <div class="arrow_down" id="downarrow">
     <div class="arrow bounce">
       <a class="fa fa-arrow-down fa-4x arrow-img" id="down_arrow" href="#"></a>
     </div>
