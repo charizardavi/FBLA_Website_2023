@@ -53,10 +53,38 @@
     <h1 class="subtitle">Join Today</h1>
 
     <div class="subtext" id="subtext">
-        Download the app on the app store or in google play, and get started! To sign up, just fill out your details, and you can start playing or earning! Get ready to transform your golf experience with Caddie Up! You can download the app from the qr code below.
+        Start playing today, as a golfer or a caddie, by filling out the form below, or scanning the qr code!
     </div>
 
     <img src="fbla_qr_code.png" class="qrcode">
+
+    <form class="join_form">
+
+        <div class="group">
+            <input type="text" required id="nameForm">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Name</label>
+        </div>
+
+        <div class="group" >
+            <input type="text" required id="emailForm">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Email</label>
+        </div>
+
+        <div class="group" >
+            <input type="text" required id="qForm">
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Caddie or Golfer?</label>
+        </div>
+        
+        <div class="flex justify-center mt-10">
+            <a onclick="joinPress()" id="joinbtn" href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full">Sign Up Now</a>
+        </div>
+    </form>
 
 </body>
 <link rel="stylesheet" href="join.css">

@@ -7,3 +7,10 @@ if (screen.width < 400) {
 } else {
   mobile_nav.remove();
 }
+
+function joinPress(){
+  if (document.getElementById("nameForm").value != "" && document.getElementById("qForm").value != "" && document.getElementById("emailForm").value != ""){
+    document.getElementById("joinbtn").innerHTML = "Sign Up Successful!";
+  }
+  
+}
