@@ -5,4 +5,4 @@ Built using vanilla HTML, CSS, and JS.
 
 Used blender used for 3d animation.
 
-The code is available under the MIT liscence.
+The code is available under the MIT license.
