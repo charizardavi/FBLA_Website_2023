@@ -328,8 +328,8 @@ input:focus ~ .highlight {
 
 .join_form {
     position:absolute;
-    left: 44%;
-    top: 80%
+    left: 40%;
+    top: 70%
 }
 
 @media (max-width:600px) {
@@ -427,6 +427,6 @@ input:focus ~ .highlight {
     .join_form {
         position:absolute;
         left: 12%;
-        top: 80%
+        top: 50%
     }
 }
